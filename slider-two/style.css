@@ -14,7 +14,7 @@ body {
 .left {
     position: absolute;
     font-size: 2.25em;
-    top: 80%;
+    top: 73%;
     left: 10;
     opacity: .75;
     cursor: pointer;
@@ -22,7 +22,7 @@ body {
 .right {
     position: absolute;
     font-size: 2.25em;
-    top: 80%;
+    top: 73%;
     right: 10;
     opacity: .75;
     cursor: pointer;
@@ -30,54 +30,89 @@ body {
 
 .container {
     width: 200vh;
-    height: 35vh;
-    
-    overflow: hidden;
+    height: 50vh;
+   overflow: hidden;
 }
 
 .slide-box {
-    width: 100%;
+    width: 200%;
     height: 100%;
     display: flex;
     list-style: none;
+    transition: transform .45s;
 }
 
 .slide {
-    width: 20%;
+    width: 50vh;
     height: 100%;
     border: solid white 2px;
+    cursor: pointer;
+   
+}
+
+.slide:hover {
+    background-size: 105%;
+    transition: 1s ease-in-out;
 }
 
 .one {
     background: url(img/1.jpg);
     background-size: cover;
+    background-position: center;
+    
 }
 .two {
     background: url(img/2.jpg);
     background-size: cover;
+    background-position: center;
+    
 }
     
 .three {
     background: url(img/3.jpg);
     background-size: cover;
+    background-position: center;
+    
 }
 .four {
     background: url(img/4.jpg);
     background-size: cover;
+    background-position: center;
+    
 }
 .five {
     background: url(img/5.jpg);
     background-size: cover;
+    background-position: center;
+    
 }
 .six {
     background: url(img/6.jpg);
     background-size: cover;
+    background-position: center;
+  
 }
 .seven {
     background: url(img/7.jpg);
     background-size: cover;
+    background-position: center;
+    
 }
 .eight {
     background: url(img/8.jpg);
     background-size: cover;
+    background-position: center;
+    
+}
+.nine {
+    background: url(img/9.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.ten {
+    background: url(img/10.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
