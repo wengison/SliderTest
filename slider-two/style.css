@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.left {
+    position: absolute;
+    font-size: 2.25em;
+    top: 80%;
+    left: 10;
+    opacity: .75;
+    cursor: pointer;
+}
+.right {
+    position: absolute;
+    font-size: 2.25em;
+    top: 80%;
+    right: 10;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.container {
+    width: 200vh;
+    height: 35vh;
+    
+    overflow: hidden;
+}
+
+.slide-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.slide {
+    width: 20%;
+    height: 100%;
+    border: solid white 2px;
+}
+
+.one {
+    background: url(img/1.jpg);
+    background-size: cover;
+}
+.two {
+    background: url(img/2.jpg);
+    background-size: cover;
+}
+    
+.three {
+    background: url(img/3.jpg);
+    background-size: cover;
+}
+.four {
+    background: url(img/4.jpg);
+    background-size: cover;
+}
+.five {
+    background: url(img/5.jpg);
+    background-size: cover;
+}
+.six {
+    background: url(img/6.jpg);
+    background-size: cover;
+}
+.seven {
+    background: url(img/7.jpg);
+    background-size: cover;
+}
+.eight {
+    background: url(img/8.jpg);
+    background-size: cover;
+}
