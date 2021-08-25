@@ -28,3 +28,4 @@ function moveLeft() {
     slideBox.style.transform = `translateX(${-containerWidth*slideNumber}px)`
 }
 
+// tak urcite
